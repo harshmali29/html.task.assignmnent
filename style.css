@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat:wght@200;300&family=Oswald&family=Prompt:wght@300&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.spc-e {
+    /* justify-content: space-evenly; */
+}
+
+.cen {
+    align-items: center;
+}
+
+.btn {
+    justify-content: space-between;
+}
+
+.col40 {
+    width: 40%;
+}
+
+.col10 {
+    width: 10%;
+}
+
+
+.sec-1 {
+    background-color: grey;
+    /* height: 800px; */
+}
+
+.logo img {
+    width: 90px;
+    padding: 20px;
+    margin: 40px;
+}
+
+.nav ul li a:hover {
+    color: darkmagenta;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 0 30px 0 0;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Prompt";
+}
+
+.login button a {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Prompt";
+    text-decoration: none;
+}
+
+.login button {
+    background-color: grey;
+}
+
+.col40 h1 {
+    margin: 60px 0;
+    font-size: 90px;
+    color: darkmagenta;
+    font-weight: 800;
+    font-family: "Prompt";
+    text-align: center;
+    /* filter: drop-shadow(4.95px 4.95px 36.5px rgba(0, 0, 0, 0.25));    */
+}
+
+.col40 p {
+    /* margin: 60px 0; */
+
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Prompt";
+    text-align: center;
+}
+
+button {
+    margin: 0 0 0 100px;
+
+}
+
+.col40 button {
+    margin: 0 0 0 100px;
+    font-weight: 400;
+    background-color: grey;
+}
+
+.col40 button a {
+    text-decoration: none;
+    font-family: "Prompt";
+    font-size: 40px;
+    color: #ffffff;
+
+}
+
+.col10 {
+    padding: 100px 0 0 0;
+}
+
+.col10 i {
+    color: #ffffff;
+    padding: 100px 0 0 0;
+    font-size: 30px;
+    margin: 100px 0 100px 0;
+    justify-content: flex-end;
+}
+
+.col40 img {
+    width: 100%;
+}
